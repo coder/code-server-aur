@@ -41,3 +41,4 @@ If a new maintainer joins the project, please add them to the top of `PKGBUILD`.
 ### Removing Old Maintainers
 
 Instead of removing them completely, change their title from "Maintainer" to "Contributor".
+new version...
