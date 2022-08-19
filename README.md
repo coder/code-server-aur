@@ -41,3 +41,8 @@ If a new maintainer joins the project, please add them to the top of `PKGBUILD`.
 ### Removing Old Maintainers
 
 Instead of removing them completely, change their title from "Maintainer" to "Contributor".
+
+### Automated publishing
+
+@jsjoeio created an account under `cdrci` for automating publishing the AUR
+package. If you need these credentials, please ask him.
