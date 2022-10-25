@@ -15,5 +15,4 @@ pkgbase = code-server
 	sha512sums_x86_64 = 83ca455a4d36db62b0a0495fdf0d2e2f3b5489e91e482e0c56b73175434cb1970678b2c28ce109d265b6c0a4006225fc9d77b2f39333849c1c4a05f68c859aca
 	source_aarch64 = https://github.com/cdr/code-server/releases/download/v4.8.0/code-server-4.8.0-linux-arm64.tar.gz
 	sha512sums_aarch64 = e7fd0f06d60fa836fc6f1b8485ec7047919f00feb733365e551cf0db477f2000cc8642af04c010367b5f1124e568515ed0750c999751c975c795e57059a4dbb6
-
 pkgname = code-server
