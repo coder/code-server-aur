@@ -1,6 +1,7 @@
 # Maintainer: Colin Adler <colin@coder.com>
 # Maintainer: Asher <ash@coder.com>
 # Maintainer: Joe Previte <joe@coder.com>
+# Maintainer: cdrci <joe+cdrci@coder.com>
 # Contributor: Teffen Ellis <teffen@coder.com>
 # Contributor: Anmol <anmol@coder.com>
 
@@ -27,7 +28,6 @@ sha512sums=('7040df09c7404a56dbbb32e09d04ead3b622773520feae19c6710656cef46ca5d79
             'ab8e679c05f6184f163dccf0651e8c1fac22a29ae583148f8c93b6930ece27cdff45a48b425e8b15b8c8ce749015680a3ae8225b7e8037979ff3d228f396f629')
 sha512sums_x86_64=('d23f0526c206bed5e12fb9859b64732da97e66367823507042d32cc7047f16e844f323f88376390211a5fe48b9ae66d7430951106365d7b29f12b8cd23103933')
 sha512sums_aarch64=('379d5d1c7722506b2b6129488b1ac024412cbdac91f010446f4bffa599babfdbe955972bc34ab3395c5c5ab89207f897ca1aa5e631e512db26dac5558dd79e60')
-
 package() {
   if [[ ${CARCH} == x86_64 ]]; then
     release_name+=-amd64
